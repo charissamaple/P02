@@ -1,3 +1,5 @@
+/* load font */
+
 @font-face{
   font-family: lunchtype;
   src: url("../fonts/Lunchtype22/lunchtype22-regular-webfont.ttf")
@@ -32,7 +34,7 @@ html {
   font-family: lunchtype, Helvetica, sans-serif;
   font-style: normal;
   scroll-behavior: smooth;
-  background-color: black;
+  background-color: white;
 }
 
 /* basic text */
@@ -44,7 +46,7 @@ h3 {
 p {
   font-family: lunchtype, Helvetica, sans-serif;
   font-style: normal;
-  color: white;
+  color: black;
 }
 
 .long_para {
@@ -60,7 +62,7 @@ p {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: nono;
+  background-color: #0039CA;
   overflow-x: hidden;
   padding-top: 50px;
   overflow: auto;
@@ -73,12 +75,12 @@ p {
   padding: 5px 8px 6px 20px;
   text-decoration: none;
   font-size: 1em;
-  color: #664F5A;
+  color: #3A68DD;
   display: block;
 }
 
 .sidenav a:hover {
-  color: #FFB1D4;
+  color: white;
   text-decoration: underline;
 }
 
@@ -112,8 +114,8 @@ nav a {
 }
 
 nav a:hover {
-  color: #ffadbd;
-  border-bottom: 2px solid #ffadbd;
+  color: #0039CA;
+  border-bottom: 2px solid #0039CA;
   transition: color;
 }
 
@@ -265,10 +267,10 @@ span.price {
 /* style guide */
 
 .element {
-  background-color: black;
+  background-color: white;
   padding: 10px 20px 20px;
   margin-bottom: 15px;
-  border: 1px solid #FFB1D4;
+  border: 1px solid #0039CA;
 }
 
 .in-text {
