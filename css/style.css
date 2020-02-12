@@ -127,6 +127,7 @@ button {
   cursor: pointer;
   transition: .3s ease-in-out;
   -webkit-transition: .3s ease-in-out;
+  letter-spacing: 0.09em;
 }
 
 button:hover, button:focus {
@@ -370,6 +371,7 @@ img {
   cursor: pointer;
   transition: .3s ease-in-out;
   -webkit-transition: .3s ease-in-out;
+  letter-spacing: 0.09em;
 }
 
 .view-button:hover, .view-button:focus {
