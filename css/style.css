@@ -122,9 +122,9 @@ nav a:hover {
 /* button + form */
 
 button {
-  border-color: #FFB1D4;
-  background-color: black;
-  color: #FFB1D4;
+  border-color: #0039CA;
+  background-color: white;
+  color: #0039CA;
   font-family: acumin-pro-wide, sans-serif;
   letter-spacing: .3px;
   font-style: normal;
@@ -139,9 +139,9 @@ button {
 }
 
 button:hover, button:focus {
-  background-color: #FFB1D4;
-  border-color: #FFB1D4;
-  color: black;
+  background-color: #0039CA;
+  border-color: #0039CA;
+  color: white;
 }
 
 #check_out, #continue_to {
@@ -158,7 +158,7 @@ input {
 }
 
 input:focus {
-  border: 1px solid #157D70;
+  border: 1px solid #0039CA;
 }
 
 /* payment form + cart */
@@ -227,12 +227,12 @@ span.price {
   font-style: normal;
   text-decoration: none;
   color: grey;
-  border-bottom: 1px solid #157D70;
+  border-bottom: 1px solid #0039CA;
   transition: color .5s ease-in-out;
 }
 
 .container a:hover {
-  color: #157D70;
+  color: #0039CA;
 }
 
 /* media query */
@@ -275,13 +275,13 @@ span.price {
 
 .in-text {
   text-decoration: none;
-  border-bottom: 2px solid #157D70;
+  border-bottom: 2px solid #0039CA;
   color: black;
   transition: color .5s ease-in-out;
 }
 
 .in-text:hover {
-  color: #157D70;
+  color: #0039CA;
 }
 
 .field_label label {
@@ -323,7 +323,7 @@ img {
 
 .head1 {
   font-size: 2.3em;
-  color: #157D70;
+  color: #0039CA;
 }
 
 .head2 {
@@ -378,8 +378,8 @@ img {
 }
 
 .add_to {
-  border-color: #1cb09d;
-  background-color: #1cb09d;
+  border-color: #0039CA;
+  background-color: #0039CA;
   color: white;
   font-family: lunchtypeBoldExt, Helvetica, sans-serif;
   letter-spacing: .3px;
@@ -395,7 +395,7 @@ img {
 }
 
 .add_to:hover, .add_to:focus {
-  background-color: #0e544c;
-  border-color: #0e544c;
+  background-color: #02257E;
+  border-color: #02257E;
   color: white;
 }
