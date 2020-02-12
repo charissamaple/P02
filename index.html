@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>P01 - Style Guide</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/zgu3cbz.css">
+
+  </head>
+
+
+  <body>
+
+    <div class="sidenav">
+      <a href="#class_intext">In-text Link</a>
+      <a href="#class_navlink">Navigation Link</a>
+      <a href="#class_button">Buttons</a>
+      <a href="#class_input">Text Input Field</a>
+      <a href="#class_radio">Radio Input</a>
+      <a href="#class_imagelink">Image as a Link</a>
+      <a href="#class_headings">Heading</a>
+      <a href="#class_para">Paragraph</a>
+      <a href="#class_ol">Numer List</a>
+      <a href="#class_nav">Main Navigation</a>
+      <a href="#class_listing">Product Listings</a>
+      <a href="#class_form">Payment Form</a>
+      <a href="#class_cart">Checkout Cart</a>
+      <a href="#class_brand">Site Brand</a>
+      <a href="#class_citation">Citation</a>
+    </div>
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <div class= "main">
+      <h2>Interactive Elements</h2>
+
+      <section class="element" id="class_intext">
+        <h3>In-text link</h3>
+        <p>Click the link <a class="in-text" href="https://www.google.com/">here</a></p>
+      </section>
+
+      <!-- Default Button styling section -->
+      <section class="element" id="class_navlink">
+        <h3>Navigation Link</h3>
+          <nav>
+            <a href="#home">Home</a>
+          </nav>
+      </section>
+
+
+      <section class="element" id="class_button">
+        <h3>Submit/Reset Buttons</h3>
+        <button type="submit" value="Submit">Submit</button>
+        <button type="reset" value="Reset">Reset</button>
+      </section>
+
+
+      <section class="element" id="class_input">
+        <div class="field_label">
+          <h3>Text Input Field with Label</h3>
+            <form action="/action_page.php">
+              <label for ="your_name">Name</label>
+              <input type="text" name="your_name" id="your_name" placeholder="Joe Rogan">
+              <br>
+              <label for ="review">Question + Reviews </label>
+              <textarea name="review" id="review" placeholder="Tell us how you feel..."></textarea>
+              <br>
+            </form>
+        </div>
+      </section>
+
+
+      <section class="element" id="class_radio">
+        <h3>Radio Button with Label</h3>
+        <form class="form">
+          <input type="radio" class="form__radio" name="group-name" id="radio1"/>
+          <label for="radio1" class="form__radio-label">Female</label>
+          <br>
+          <input type="radio" class="form__radio" name="group-name" id="radio2" checked />
+          <label for="radio2" class="form__radio-label">Male</label>
+          <br>
+        </form>
+      </section>
+
+
+      <section class="element" id="class_imagelink">
+        <h3>Image as a Link</h3>
+        <a href="https://www.deadstock.ca/collections/footwear-nike-womens/products/nike-womens-x-off-white-waffle-racer-white-black"><img id="image-link" src="img/side.jpg" alt="Nike Air Force 1'07"></a>
+      </section>
+
+
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+      <h2>Text Elements</h2>
+
+      <section class="element" id="class_headings">
+        <h3>Headings</h3>
+        <h3 class="head1">FIRST HEADING</h3>
+        <h4 class="head2">Second Heading</h4>
+        <h5 class="head3">Third Heading</h5>
+        <h6 class="head4">Forth Heading</h6>
+      </section>
+
+
+      <section class="element" id="class_para">
+        <h3>Paragraphs</h3>
+        <p class="long_para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<p>
+      </section>
+
+
+      <section class="element" id="class_ol">
+        <h3>Numbered Lists</h3>
+        <ol>
+          <li>Premium mesh upper</li>
+          <li>Durable overlays</li>
+          <li>Exposed foam tongue</li>
+          <li>Flywire lacing</li>
+        </ol>
+      </section>
+
+
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+      <h2>Combined Elements</h2>
+
+
+      <section class="element" id="class_nav">
+        <h3>Main Navigation</h3>
+        <section class="navigation">
+          <nav>
+            <a href="#home">HOME</a>
+            <a href="#product">PRODUCT</a>
+            <a href="#contact">CONTACT</a>
+            <a href="#cart">CART</a>
+            <a href="#feature">FEATURE</a>
+            <a href="#news">NEWS</a>
+          </nav>
+        </section>
+      </section>
+
+
+      <section class="element" id="class_listing">
+        <h3>Product/Service Listing</h3>
+        <p>Cilick <a class="in-text" href="product.html">here</a> to go to the product listing page</p>
+
+        <div class="product_listing">
+          <div class="listing_card">
+            <img src="img/shoe1.jpg" alt="Air Force 1">
+            <h1 class="description">Nike Women's Air Force 1 '07 White / Noble Red</h1>
+            <p class="price">$120.00 CAD</p>
+            <button class="add_to">Add to Cart</button>
+            <button>View More</button>
+          </div>
+
+          <div class="listing_card">
+            <img src="img/shoe2.jpg" alt="Blazer Mid Vintage Suede">
+            <h1 class="description">Nike Women's Blazer Mid Vintage Suede Coral / White</h1>
+            <p class="price">$115.00 CAD</p>
+            <button class="add_to">Add to Cart</button>
+            <button>View More</button>
+          </div>
+
+          <div class="listing_card">
+            <img src="img/shoe3.jpg" alt="Aqua Rift">
+            <h1 class="description">Nike Women's Aqua Rift / Indigo Burst</h1>
+            <p class="price">$185.00 CAD</p>
+            <button class="add_to">Add to Cart</button>
+            <button>View More</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="element" id="class_form">
+        <h3>Payment Form</h3>
+        <p>Cilick <a class="in-text" href="checkout.html">here</a> to go to the checkout page</p>
+        <div class="row">
+          <div class="col-50">
+            <div class="container">
+              <form>
+                <div class="row">
+                  <div class="col-50">
+                    <h3>Billing Address</h3>
+                    <label for="fname">Full Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Joe Rogan">
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="name@example.com">
+
+                    <label for="adr">Address</label>
+                    <input type="text" id="adr" name="address" placeholder="100 W. 1st Street">
+
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city" placeholder="Vancouver">
+
+                    <div class="row">
+                      <div class="col-50">
+                        <label for="province">Province</label>
+                        <input type="text" id="province" name="province" placeholder="BC">
+                      </div>
+                      <div class="col-50">
+                        <label for="zip">Zip</label>
+                        <input type="text" id="zip" name="zip" placeholder="V1H 2B3">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-50">
+                    <h3>Payment</h3>
+
+                    <label for="cname">Name on Card</label>
+                    <input type="text" id="cname" name="cardname" placeholder="Joe Rogan">
+                    <label for="ccnum">Credit card number</label>
+                    <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                    <label for="expmonth">Exp Month</label>
+                    <input type="text" id="expmonth" name="expmonth" placeholder="June">
+
+                    <div class="row">
+                      <div class="col-50">
+                        <label for="expyear">Exp Year</label>
+                        <input type="text" id="expyear" name="expyear" placeholder="2022">
+                      </div>
+                      <div class="col-50">
+                        <label for="cvv">CVV</label>
+                        <input type="text" id="cvv" name="cvv" placeholder="000">
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <button id="continue_to">Continue</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+
+    <section class="element" id="class_cart">
+      <h3>Checkout Cart</h3>
+      <div class="col-25">
+        <div class="container">
+          <h3>Cart<b><span class="price" style="color:black">2</span></b></h3>
+          <p><a href="#">Nike Women's x Off-White</a><span class="price">$195.00</span></p>
+          <p><a href="#">Nike Women's Air Force 1 '07</a><span class="price">$120.00</span></p>
+          <hr>
+          <p>Total <span class="price" style="color:black"><b>$315.00</b></span></p>
+          <button id="check_out">Checkout</button>
+        </div>
+      </div>
+    </section>
+
+  <!-- SITE BRAND / ART DIRECTION -->
+  <h2>Site Brand</h2>
+  <section class="element">
+    <section id="class_brand">
+
+    <h3>Basic Branding Idea</h3>
+    <h4>What does the company do, or offer?</h4>
+    <ul>
+      <li>The company I am creating a website for serves as a platform for users to purchase a variety of streetwear clothes and accessories. Additionally, the website also includes news updates on the most recent released items. </li>
+    </ul>
+    <h4>Who is the company to potential customers?</h4>
+    <ul>
+      <li>The main company target customers would be people who are interested in buying name brand streetwear items. However, new customers can also learn more about streetwear culture through the website.</li>
+    </ul>
+    <h4>Why might this company entice someone to purchase a product or service</h4>
+    <ul>
+      <li>The company gathers information on the most updated streetwears, making it easy and accessible for the customers to shop. It is also a good place for customers to get an insight of what’s new in the streetwear culture.</li>
+    </ul>
+
+    <h3>Basic Component</h3>
+    <h4>Art Direction</h4>
+    <img src="img/Art_Direction.png" alt="Art Direction" style="width:100%">
+    <h4>Color Palette + Fonts</h4>
+    <img src="img/Font.png" alt="Art Direction" style="width:100%">
+
+    </section>
+  </section>
+
+    <h2>Citation</h2>
+    <section class="element" id="class_citation">
+      <section id="citation">
+        <h3>Photo Source</h3>
+        <p><a class="in-text" href="https://www.deadstock.ca/collections/footwear-nike-womens">https://www.deadstock.ca/collections/footwear-nike-womens</a></p>
+        <br>
+        <h3>Code Source</h3>
+        <p><a class="in-text" href="https://www.w3schools.com/">https://www.w3schools.com/</a></p>
+        <p><a class="in-text" href="https://codepen.io/">https://codepen.io/</a></p>
+      </section>
+    </section>
+  </div>
+
+
+  </body>
+</html>
