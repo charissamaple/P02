@@ -106,8 +106,8 @@ nav a {
 }
 
 nav a:hover {
-  color: #0039CA;
-  border-bottom: 2px solid #0039CA;
+  color: #FFAA12;
+  border-bottom: 2px solid #FFAA12;
   transition: color;
 }
 
@@ -117,8 +117,7 @@ button {
   border-color: #0039CA;
   background-color: #0039CA;
   color: white;
-  font-family: acumin-pro-wide, sans-serif;
-  letter-spacing: .3px;
+  font-family: lunchtype, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 2;
@@ -269,11 +268,13 @@ span.price {
   text-decoration: none;
   border-bottom: 2px solid #0039CA;
   color: black;
-  transition: color .5s ease-in-out;
+  transition:  .5s ease-in-out;
 }
 
 .in-text:hover {
-  color: #0039CA;
+  color: #FFAA12;
+  border-bottom: 2px solid #FFAA12;
+  transition:  .5s ease-in-out;
 }
 
 .field_label label {
@@ -357,7 +358,7 @@ img {
   border-color: #0039CA;
   background-color: #0039CA;
   color: white;
-  font-family: lunchtypeExt, Helvetica, sans-serif;
+  font-family: lunchtype, Helvetica, sans-serif;
   letter-spacing: .3px;
   font-style: normal;
   font-weight: 400;
