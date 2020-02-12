@@ -115,8 +115,8 @@ nav a:hover {
 
 button {
   border-color: #0039CA;
-  background-color: white;
-  color: #0039CA;
+  background-color: #0039CA;
+  color: white;
   font-family: acumin-pro-wide, sans-serif;
   letter-spacing: .3px;
   font-style: normal;
@@ -131,8 +131,8 @@ button {
 }
 
 button:hover, button:focus {
-  background-color: #0039CA;
-  border-color: #0039CA;
+  background-color: #FFAA12;
+  border-color: #FFAA12;
   color: white;
 }
 
