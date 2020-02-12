@@ -355,8 +355,8 @@ img {
 
 .view-button {
   border-color: #0039CA;
-  background-color: #0039CA;
-  color: white;
+  background-color: white;
+  color: #0039CA;
   font-family: lunchtypeExt, Helvetica, sans-serif;
   letter-spacing: .3px;
   font-style: normal;
@@ -371,10 +371,10 @@ img {
 }
 
 .view-button:hover, .view-button:focus {
-  background-color: #02257E;
-  border-color: #02257E;
+  background-color: #FFAA12;
+  border-color: #FFAA12;
   color: white;
-} 
+}
 
 /* .add_to {
   border-color: #0039CA;
