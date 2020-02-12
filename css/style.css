@@ -146,6 +146,7 @@ label {
 input {
   font-size: 16px;
   margin-bottom: 5px;
+  border: 1px solid #0039CA;
 }
 
 input:focus {
@@ -199,7 +200,7 @@ input:focus {
   margin-bottom: 20px;
   margin-top: 5px;
   padding: 10px;
-  border: 1px solid darkgrey;
+  border: 1px solid #0039CA;
 }
 
 span.price {
@@ -297,7 +298,7 @@ span.price {
   margin-bottom: 20px;
   margin-top: 5px;
   padding: 8px;
-  border: 1px solid rgb(217, 217, 217);
+  border: 1px solid #0039CA;
 }
 
 img {
