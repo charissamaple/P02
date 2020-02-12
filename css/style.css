@@ -44,6 +44,7 @@ h3 {
 p {
   font-family: lunchtype, Helvetica, sans-serif;
   font-style: normal;
+  color: white;
 }
 
 .long_para {
@@ -59,7 +60,7 @@ p {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #ffadbd;
+  background-color: nono;
   overflow-x: hidden;
   padding-top: 50px;
   overflow: auto;
@@ -72,12 +73,12 @@ p {
   padding: 5px 8px 6px 20px;
   text-decoration: none;
   font-size: 1em;
-  color: #ff8c96;
+  color: #664F5A;
   display: block;
 }
 
 .sidenav a:hover {
-  color: white;
+  color: #FFB1D4;
   text-decoration: underline;
 }
 
@@ -119,9 +120,9 @@ nav a:hover {
 /* button + form */
 
 button {
-  border-color: #157D70;
-  background-color: #157D70;
-  color: white;
+  border-color: #FFB1D4;
+  background-color: black;
+  color: #FFB1D4;
   font-family: acumin-pro-wide, sans-serif;
   letter-spacing: .3px;
   font-style: normal;
@@ -136,9 +137,9 @@ button {
 }
 
 button:hover, button:focus {
-  background-color: #0e544c;
-  border-color: #0e544c;
-  color: white;
+  background-color: #FFB1D4;
+  border-color: #FFB1D4;
+  color: black;
 }
 
 #check_out, #continue_to {
@@ -267,8 +268,7 @@ span.price {
   background-color: black;
   padding: 10px 20px 20px;
   margin-bottom: 15px;
-  border: 1px solid darkgrey;
-  border-radius: 3px;
+  border: 1px solid #FFB1D4;
 }
 
 .in-text {
