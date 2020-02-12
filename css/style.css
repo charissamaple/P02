@@ -11,21 +11,33 @@ html {
 }
 
 /* basic text */
+h1{
+  font-family: lunchtypeBoldExt, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 2.5rem;
+  letter-spacing: .1em;
+  color: #0039CA;
 
+}
 h2{
   font-family: lunchtypeBoldExt, Helvetica, sans-serif;
+  color: #0039CA;
   font-size: 2rem;
   font-weight: normal;
 }
 h3 {
-  font-family: lunchtypeExt, Helvetica, sans-serif;
-
+  font-family: lunchtypeBold, Helvetica, sans-serif;
+  color: #000;
+  font-weight: normal;
 }
 
 p {
   font-family: lunchtype, Helvetica, sans-serif;
   font-style: normal;
   color: black;
+  line-height: 1.4em;
+  letter-spacing: .03em;
+  font-size: .95rem;
 }
 
 .long_para {
@@ -48,12 +60,12 @@ p {
 }
 
 .sidenav a {
-  font-family: lunchtype, Helvetica, sans-serif;
+  font-family: lunchtypeBoldExt, Helvetica, sans-serif;
   font-weight: 600;
   font-style: normal;
-  padding: 5px 8px 6px 20px;
+  padding: 5px 13px 6px 35px;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.3em;
   color: #3A68DD;
   display: block;
 }
@@ -82,8 +94,7 @@ p {
 }
 
 nav a {
-  font-family: lunchtype, Helvetica, sans-serif;
-  font-weight: 600;
+  font-family: lunchtypeBoldExt, Helvetica, sans-serif;
   font-style: normal;
   text-decoration: none;
   color: black;
@@ -300,18 +311,6 @@ img {
   transform: scale(0.9);
 }
 
-.head1 {
-  font-size: 2.3em;
-  color: #0039CA;
-}
-
-.head2 {
-  font-size: 1.8em;
-}
-
-.head3 {
-  font-size: 1.2em;
-}
 
 /* product listing */
 
