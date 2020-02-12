@@ -1,10 +1,35 @@
+@font-face{
+  font-family: lunchtype;
+  src: url("../fonts/Lunchtype22/lunchtype22-regular-webfont.ttf")
+}
+@font-face{
+  font-family: lunchtypeBold;
+  src: url("../fonts/Lunchtype22/lunchtype22-medium-webfont.ttf")
+}
+@font-face{
+  font-family: lunchtypeItalic;
+  src: url("../fonts/Lunchtype23/lunchtype23-regular-italic-webfont.ttf")
+}
+@font-face{
+  font-family: lunchtypeBoldItalic;
+  src: url("../fonts/Lunchtype23/lunchtype23-medium-italic-webfont.ttf")
+}
+@font-face{
+  font-family: lunchtypeExt;
+  src: url("../fonts/Lunchtype24/lunchtype24-regular-expanded-webfont.ttf")
+}
+@font-face{
+  font-family: lunchtypeBoldExt;
+  src: url("../fonts/Lunchtype24/lunchtype24-medium-expanded-webfont.ttf")
+}
+
 * {
   box-sizing: border-box;
 }
 
 html {
   padding: 2em 5em 2em 5em;
-  font-family: acumin-pro, sans-serif;
+  font-family: lunchtype, Helvetica, sans-serif;
   font-style: normal;
   scroll-behavior: smooth;
   background-color: black;
@@ -13,11 +38,11 @@ html {
 /* basic text */
 
 h3 {
-  font-family: acumin-pro, sans-serif;
+  font-family: lunchtypeBoldExt, Helvetica, sans-serif;
 }
 
 p {
-  font-family: acumin-pro, sans-serif;
+  font-family: lunchtype, Helvetica, sans-serif;
   font-style: normal;
 }
 
@@ -41,7 +66,7 @@ p {
 }
 
 .sidenav a {
-  font-family: acumin-pro-wide, sans-serif;
+  font-family: lunchtype, Helvetica, sans-serif;
   font-weight: 600;
   font-style: normal;
   padding: 5px 8px 6px 20px;
@@ -75,7 +100,7 @@ p {
 }
 
 nav a {
-  font-family: acumin-pro-wide, sans-serif;
+  font-family: lunchtype, Helvetica, sans-serif;
   font-weight: 600;
   font-style: normal;
   text-decoration: none;
@@ -174,7 +199,7 @@ input:focus {
 }
 
 .container input {
-  font-family: acumin-pro, sans-serif;
+  font-family: lunchtype, Helvetica, sans-serif;
   font-style: normal;
   width: 100%;
   margin-bottom: 20px;
@@ -195,7 +220,7 @@ span.price {
 /* cart in-text link */
 
 .container a {
-  font-family: acumin-pro, sans-serif;
+  font-family: lunchtype, Helvetica, sans-serif;
   font-style: normal;
   text-decoration: none;
   color: grey;
@@ -271,7 +296,7 @@ span.price {
 #review {
   width: 60%;
   height: 200px;
-  font-family: acumin-pro, sans-serif;
+  font-family: lunchtype, Helvetica, sans-serif;
   font-size: 1em;
   font-style: normal;
   margin-bottom: 20px;
@@ -354,7 +379,7 @@ img {
   border-color: #1cb09d;
   background-color: #1cb09d;
   color: white;
-  font-family: acumin-pro-wide, sans-serif;
+  font-family: lunchtypeBoldExt, Helvetica, sans-serif;
   letter-spacing: .3px;
   font-style: normal;
   font-weight: 400;
