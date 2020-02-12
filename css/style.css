@@ -7,6 +7,22 @@ html {
   font-family: acumin-pro, sans-serif;
   font-style: normal;
   scroll-behavior: smooth;
+  background-color: black;
+}
+
+/* basic text */
+
+h3 {
+  font-family: acumin-pro, sans-serif;
+}
+
+p {
+  font-family: acumin-pro, sans-serif;
+  font-style: normal;
+}
+
+.long_para {
+  max-width: 600px;
 }
 
 /* sidebar */
@@ -18,7 +34,7 @@ html {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #157D70;
+  background-color: #ffadbd;
   overflow-x: hidden;
   padding-top: 50px;
   overflow: auto;
@@ -31,7 +47,7 @@ html {
   padding: 5px 8px 6px 20px;
   text-decoration: none;
   font-size: 1em;
-  color: #bfd9d5;
+  color: #ff8c96;
   display: block;
 }
 
@@ -70,24 +86,9 @@ nav a {
 }
 
 nav a:hover {
-  color: #157D70;
-  border-bottom: 2px solid #157D70;
+  color: #ffadbd;
+  border-bottom: 2px solid #ffadbd;
   transition: color;
-}
-
-/* basic text */
-
-h3 {
-  font-family: acumin-pro, sans-serif;
-}
-
-p {
-  font-family: acumin-pro, sans-serif;
-  font-style: normal;
-}
-
-.long_para {
-  max-width: 600px;
 }
 
 /* button + form */
@@ -206,7 +207,7 @@ span.price {
   color: #157D70;
 }
 
-/* media qurrey */
+/* media query */
 
 @media (max-width: 1000px) {
   html {
@@ -238,7 +239,7 @@ span.price {
 /* style guide */
 
 .element {
-  background-color: white;
+  background-color: black;
   padding: 10px 20px 20px;
   margin-bottom: 15px;
   border: 1px solid darkgrey;
