@@ -452,6 +452,28 @@ span.price {
   margin-left: -10%;
 }
 
+.news {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home_column {
+  padding-top: 2em;
+  width: 30%;
+}
+
+.title {
+  margin-top: 12px;
+  margin-bottom: 10px;
+  color: #528187;
+  font-size: 25px;
+}
+
+.yeet {
+    font-size: 13px;
+    line-height: 18px;
+}
+
 
 /* button class */
 
