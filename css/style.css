@@ -302,7 +302,7 @@ span.price {
   border: 1px solid #0039CA;
 }
 
-img {
+.listing_card img {
   height: auto;
   max-width: 80%;
   -webkit-transform: scale(0.8);
@@ -413,4 +413,10 @@ img {
   margin-right: auto;
   max-width: 200px;
   padding-bottom: 1em;
+}
+
+.banner img {
+  width: 120%;
+  overflow: hidden;
+  margin-left: -10%;
 }
