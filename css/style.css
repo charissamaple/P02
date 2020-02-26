@@ -493,13 +493,12 @@ span.price {
   transition: .3s ease-in-out;
   -webkit-transition: .3s ease-in-out;
   letter-spacing: 0.09em;
+  text-decoration: none;
+
 }
 
 .btn:hover, .btn:focus {
   background-color: #FFAA12;
   border-color: #FFAA12;
   color: white;
-}
-.btn a{
-  text-decoration: none;
 }
