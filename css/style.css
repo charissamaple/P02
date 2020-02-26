@@ -438,7 +438,7 @@ span.price {
 
 /* home page */
 
-#logo {
+.logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
