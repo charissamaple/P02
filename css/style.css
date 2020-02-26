@@ -380,6 +380,31 @@ img {
   color: white;
 }
 
+/* product card */
+
+.card {
+  max-width: 800px;
+  background: white;
+  display: flex;
+  }
+
+.photo {
+  padding: 30px;
+  width: 50%;
+  margin: auto;
+}
+
+.description {
+  padding: 30px;
+  width: 55%;
+  border-left: 2px solid #efefef;
+}
+
+.description button {
+  display: inline;
+  width: 49%;
+}
+
 /* .add_to {
   border-color: #0039CA;
   background-color: #0039CA;
