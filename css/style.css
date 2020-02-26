@@ -383,12 +383,36 @@ span.price {
 /* product card */
 
 .card {
-  max-width: 800px;
-  background: white;
+  display: -webkit-flex;
+  display: -ms-flex;
   display: flex;
-  }
+  align-items: center;
+  box-sizing: content-box;
+  flex-wrap: wrap;
+  background: white;
+  border: 1px solid #0039CA;
+}
+.card-product-photos{
+  width: 50%;
+  border-right: 1px solid #0039CA;
+}
+.card-description{
+  width: 50%;
+  padding: 5%;
+}
+.card-photo{
+  width: 100%;
+  border-bottom: 1px solid #0039CA;
 
-.photo {
+}
+.card-photo-gallery{
+  display: flex;
+}
+.card-photo-gallery img{
+  max-width: 30%;
+}
+
+/* .photo {
   padding: 30px;
   width: 50%;
   margin: auto;
@@ -403,7 +427,7 @@ span.price {
 .description button {
   display: inline;
   width: 49%;
-}
+} */
 
 /* home page */
 
