@@ -33,6 +33,13 @@ h3 {
   font-size: 1.3rem;
   line-height: 1.5em;
 }
+h4 {
+  font-family: lunchtypeBold, Helvetica, sans-serif;
+  color: #0039CA;
+  font-weight: normal;
+  font-size: 1.3rem;
+  line-height: 1.5em;
+}
 
 p {
   font-family: lunchtype, Helvetica, sans-serif;
@@ -148,11 +155,23 @@ label {
 input {
   font-size: 16px;
   margin-bottom: 5px;
-  border: 1px solid #0039CA;
+  border: 1px solid #577CDA;
+  background-color: #F4F7FF;
 }
 
 input:focus {
-  border: 1px solid #0039CA;
+  background-color: #FEF7EC;
+  border: 1px solid #577CDA;
+}
+
+textarea{
+  border: 1px solid #577CDA;
+  background-color: #F4F7FF;
+}
+
+textarea:focus{
+  background-color: #FEF7EC;
+
 }
 
 
@@ -265,7 +284,7 @@ span.price {
 .element {
   background-color: white;
   padding: 10px 20px 20px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   border: 1px solid #0039CA;
 }
 
@@ -501,4 +520,15 @@ span.price {
   background-color: #FFAA12;
   border-color: #FFAA12;
   color: white;
+}
+
+/* Contact page */
+
+#contact-content{
+  
+}
+
+.h2-contact-page{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #0039CA;
 }
