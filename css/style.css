@@ -427,16 +427,24 @@ span.price {
   padding-bottom: 1em;
 }
 
-.banner img {
-  width: 117%;
-  overflow: hidden;
-  margin-left: -10%;
+.banner {
+  width: 100vw;
+  height: 600px;
+  background-image: url("/img/home_banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: absolute;
+  left: 0;
 }
 
 .news {
+  top: 600px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .news_column {
@@ -454,8 +462,6 @@ span.price {
 .news img{
   width: 100%;
 }
-
-
 
 /* button class */
 
