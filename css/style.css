@@ -33,13 +33,6 @@ h3 {
   font-size: 1.3rem;
   line-height: 1.5em;
 }
-h4 {
-  font-family: lunchtypeBold, Helvetica, sans-serif;
-  color: #0039CA;
-  font-weight: normal;
-  font-size: 1.3rem;
-  line-height: 1.5em;
-}
 
 p {
   font-family: lunchtype, Helvetica, sans-serif;
@@ -152,29 +145,32 @@ label {
   display: inline;
 }
 
-input {
+input, textarea {
   font-size: 16px;
   margin-bottom: 5px;
   border: 1px solid #577CDA;
-  background-color: #F4F7FF;
+  background-color: rgb(248, 250, 255);
 }
 
-input:focus {
+input:hover, textarea:hover{
+  background-color: rgb(234, 239, 250);
+}
+
+input:focus, textarea:focus {
   background-color: #FEF7EC;
   border: 1px solid #577CDA;
 }
 
-textarea{
-  border: 1px solid #577CDA;
-  background-color: #F4F7FF;
+::placeholder{
+  color: #aaa;
 }
 
-textarea:focus{
-  background-color: #FEF7EC;
-
+label {
+  font-family: lunchtypeBold, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 1.15rem;
+  line-height: 1.5em;
 }
-
-
 
 /* payment form + cart */
 
