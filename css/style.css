@@ -145,17 +145,32 @@ label {
   display: inline;
 }
 
-input {
+input, textarea {
   font-size: 16px;
   margin-bottom: 5px;
-  border: 1px solid #0039CA;
+  border: 1px solid #577CDA;
+  background-color: rgb(248, 250, 255);
 }
 
-input:focus {
-  border: 1px solid #0039CA;
+input:hover, textarea:hover{
+  background-color: rgb(234, 239, 250);
 }
 
+input:focus, textarea:focus {
+  background-color: #FEF7EC;
+  border: 1px solid #577CDA;
+}
 
+::placeholder{
+  color: #aaa;
+}
+
+label {
+  font-family: lunchtypeBold, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 1.15rem;
+  line-height: 1.5em;
+}
 
 /* payment form + cart */
 
@@ -231,41 +246,12 @@ span.price {
   color: #0039CA;
 }
 
-/* media query */
-
-@media (max-width: 1000px) {
-  html {
-    padding: 2em 5em 2em 5em;
-  }
-  .row {
-    flex-direction: column-reverse;
-  }
-  .col-25 {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .sidenav {
-    display: none
-  }
-  div.main {
-    margin-left: 0;
-  }
-}
-
-@media screen and (max-width: 420px) {
-  html {
-    padding: 0;
-  }
-}
-
 /* style guide */
 
 .element {
   background-color: white;
   padding: 10px 20px 20px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   border: 1px solid #0039CA;
 }
 
@@ -428,20 +414,6 @@ span.price {
   padding: 3% 0;
 }
 
-@media screen and (max-width: 850px){
-  .card-product-photos{
-    width: 100%;
-  }
-  .card-description{
-    width: 100%;
-  }
-  .card-description{
-    border-top: 1px solid #0039CA;
-    border-left: none;
-  }
-}
-
-
 /* home page */
 
 .logo {
@@ -461,16 +433,23 @@ span.price {
 .news {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.home_column {
+.news_column {
   padding-top: 2em;
-  width: 30%;
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
 }
 
-.title {
+.news_title {
   margin-top: 12px;
   margin-bottom: 10px;
+}
+
+.news img{
+  width: 100%;
 }
 
 
@@ -501,4 +480,11 @@ span.price {
   background-color: #FFAA12;
   border-color: #FFAA12;
   color: white;
+}
+
+/* Contact page */
+
+.h2-contact-page{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #0039CA;
 }
