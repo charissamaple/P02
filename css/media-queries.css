@@ -1,0 +1,49 @@
+/* media query */
+
+@media (max-width: 1000px) {
+  html {
+    padding: 2em 5em 2em 5em;
+  }
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .sidenav {
+    display: none;
+  }
+  div.main {
+    margin-left: 0;
+  }
+
+    /* news on homepage */
+    .news_column{
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 850px) {
+   
+    .card-product-photos {
+      width: 100%;
+    }
+    .card-description {
+      width: 100%;
+    }
+    .card-description {
+      border-top: 1px solid #0039ca;
+      border-left: none;
+    }
+}
+
+@media screen and (max-width: 420px) {
+  html {
+    padding: 0;
+  }
+}
+
+
