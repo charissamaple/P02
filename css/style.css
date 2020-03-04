@@ -19,7 +19,6 @@ h1{
   font-family: lunchtypeBoldExt, Helvetica, sans-serif;
   font-weight: normal;
   font-size: 2.5rem;
-  letter-spacing: .1em;
   color: #0039CA;
 
 }
@@ -500,4 +499,12 @@ span.price {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.news1_title {
+  max-width: 700px;
+}
+
+.news1_content {
+  max-width: 800px;
 }
