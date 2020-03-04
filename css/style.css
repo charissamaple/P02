@@ -460,8 +460,6 @@ span.price {
   width: 100%;
 }
 
-
-
 /* button class */
 
 .btn {
@@ -495,4 +493,10 @@ span.price {
 .h2-contact-page{
   padding-bottom: 20px;
   border-bottom: 1px solid #0039CA;
+}
+
+/* news PAGE */
+
+.news-page img{
+  width: 100%;
 }
