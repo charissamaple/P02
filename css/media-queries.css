@@ -78,9 +78,10 @@
       flex-direction: column;
       justify-content: center;
     }
-    .news_container, .news_img{
-      flex-basis: 100%;
+    .news_home_container, .news_home_img{
+      width: 100%;
     }
+
     #navigation{
       display: block;
     }
