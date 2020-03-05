@@ -63,6 +63,12 @@
     .news_container, .news_img{
       flex-basis: 100%;
     }
+    #navigation{
+      display: block;
+    }
+    .burger{
+      display: none;
+    }
 }
 
 @media screen and (max-width: 420px) {

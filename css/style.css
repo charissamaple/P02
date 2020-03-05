@@ -103,7 +103,7 @@ p {
   margin: auto;
 }
 
-.navigation {
+.navigation, #navigation {
   align-items: center;
   display: inline-table;
   text-align: center;
@@ -112,6 +112,7 @@ p {
   overflow: hidden;
   padding: 1em 0em 2em 0em;
   font-size: .9em;
+  display: block;
 }
 
 nav a {
