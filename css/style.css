@@ -40,7 +40,7 @@ h3 {
 p {
   font-family: lunchtype, Helvetica, sans-serif;
   font-style: normal;
-  color: black;
+  color: #353535;
   line-height: 1.4em;
   letter-spacing: .03em;
   font-size: .95rem;
@@ -146,6 +146,10 @@ button:hover, button:focus {
 
 label {
   display: inline;
+  font-family: lunchtype, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 1.15rem;
+  line-height: 1.5em;
 }
 
 input, textarea {
@@ -166,13 +170,6 @@ input:focus, textarea:focus {
 
 ::placeholder{
   color: #aaa;
-}
-
-label {
-  font-family: lunchtypeBold, Helvetica, sans-serif;
-  font-weight: normal;
-  font-size: 1.15rem;
-  line-height: 1.5em;
 }
 
 /* payment form + cart */
@@ -242,11 +239,12 @@ span.price {
   text-decoration: none;
   color: grey;
   border-bottom: 1px solid #0039CA;
-  transition: color .5s ease-in-out;
+  transition: .5s ease-in-out;
 }
 
 .container a:hover {
-  color: #0039CA;
+  color: #FFAA12;
+  border-bottom: 1px solid #FFAA12;
 }
 
 /* style guide */
