@@ -117,7 +117,7 @@ p {
   margin: auto;
 }
 
-.navigation, #navigation {
+#navigation {
   align-items: center;
   display: inline-table;
   text-align: center;
