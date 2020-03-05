@@ -601,6 +601,10 @@ span.price {
   font-weight: normal;
 }
 
+.footer_social1, .footer_social2 {
+  text-align: left;
+}
+
 .footer_link {
   color: white;
   text-decoration: none;
