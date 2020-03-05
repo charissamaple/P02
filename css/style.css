@@ -491,8 +491,8 @@ span.price {
 }
 
 .btn:hover, .btn:focus {
-  background-color: #FFAA12;
-  border-color: #FFAA12;
+  background-color: #0039CA;
+  border-color: #0039CA;
   color: white;
 }
 
