@@ -601,4 +601,15 @@ span.price {
   font-weight: normal;
 }
 
+.footer_link {
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid white;
+  transition:  .5s ease-in-out;
+}
 
+.footer_link:hover {
+  color: #FFAA12;
+  border-bottom: 2px solid #FFAA12;
+  transition:  .5s ease-in-out;
+}
