@@ -522,6 +522,7 @@ span.price {
 
 .news_page_img{
   width: 40%;
+  -webkit-transition: .3s ease-in-out;
 }
 
 .news_page_img:hover{
