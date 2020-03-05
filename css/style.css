@@ -23,7 +23,7 @@ h1{
 
 }
 h2{
-  font-family: lunchtypeBoldExt, Helvetica, sans-serif;
+  font-family: lunchtypeExt, Helvetica, sans-serif;
   color: #0039CA;
   font-size: 2rem;
   font-weight: normal;
@@ -439,7 +439,7 @@ span.price {
   left: 0;
 }
 
-.news {
+.news_home {
   top: 600px;
   display: flex;
   justify-content: space-between;
@@ -459,7 +459,7 @@ span.price {
   margin-bottom: 10px;
 }
 
-.news img{
+.news_home img{
   width: 100%;
 }
 
@@ -498,7 +498,37 @@ span.price {
   border-bottom: 1px solid #0039CA;
 }
 
-/* news content page */
+
+/* news PAGE */
+
+.news_page {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.news_page_column {
+  padding: 4% 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 1px solid #0039CA;
+}
+
+.news_page_img{
+  width: 40%;
+}
+
+.news_page_container{
+  width: 55%;
+  padding-top: 2%;
+}
+
+.news_page img{
+  width: 100%;
+}
+
+/* news1 content page */
 .news_img {
   padding-top: 2em;
   display: block;
