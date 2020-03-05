@@ -350,6 +350,15 @@ span.price {
 
 /* product listing */
 
+.long_banner {
+  width: 100vw;
+  height: 600px;
+  background-image: url("../img/product_banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
 .listing_card {
   max-width: 300px;
   margin: auto;
@@ -446,6 +455,7 @@ span.price {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  }
 
   /* position: absolute; */
   left: 0;
