@@ -31,7 +31,8 @@ h1{
   font-weight: normal;
   font-size: 2.5rem;
   color: #0039CA;
-
+  letter-spacing: .05em;
+  text-transform: capitalize;
 }
 h2{
   font-family: lunchtypeExt, Helvetica, sans-serif;
@@ -41,6 +42,13 @@ h2{
   margin: 1.5em 0 .5em 0;
 }
 h3 {
+  font-family: lunchtypeBold, Helvetica, sans-serif;
+  color: #000;
+  font-weight: normal;
+  font-size: 1.3rem;
+  line-height: 1.5em;
+}
+h4{
   font-family: lunchtypeBold, Helvetica, sans-serif;
   color: #000;
   font-weight: normal;
@@ -468,6 +476,10 @@ span.price {
 
 .news_home img{
   width: 100%;
+}
+
+.feature_intro{
+  text-align: center;
 }
 
 /* button class */
