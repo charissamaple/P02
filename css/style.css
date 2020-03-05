@@ -3,11 +3,25 @@
 }
 
 html {
-  padding: 2em 5em 2em 5em;
+  /* padding: 2em 5em 2em 5em; */
   font-family: lunchtype, Helvetica, sans-serif;
   font-style: normal;
   scroll-behavior: smooth;
   background-color: white;
+}
+
+.white_border {
+  padding: 2em 5em 2em 5em;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
 }
 
 /* basic text */
@@ -550,3 +564,5 @@ span.price {
 .news1_content {
   max-width: 800px;
 }
+
+/* footer */
