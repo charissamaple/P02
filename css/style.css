@@ -5,6 +5,7 @@
 body {
   margin: 0;
   padding: 0;
+  padding-top: 2em;
 }
 
 html {
@@ -16,7 +17,7 @@ html {
 }
 
 .white_border {
-  padding: 2em 5em 2em 5em;
+  padding: 0 5em 2em 5em;
 }
 
 
