@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   /* padding: 2em 5em 2em 5em; */
   font-family: lunchtype, Helvetica, sans-serif;
@@ -14,15 +19,6 @@ html {
   padding: 2em 5em 2em 5em;
 }
 
-.footer {
-  position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
-}
 
 /* basic text */
 hr {
@@ -566,3 +562,23 @@ span.price {
 }
 
 /* footer */
+.footer {
+  overflow: hidden;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0039CA;
+  text-align: center;
+}
+
+.footer_logo {
+  padding: 1em 0em 0.5em 0em;
+  max-width: 200px;
+}
+
+.footer_title {
+  color: white;
+  font-family: lunchtypeBoldExt, Helvetica, sans-serif;
+  font-weight: normal;
+}
