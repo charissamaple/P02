@@ -81,6 +81,9 @@
   .navigation a{
     display: block;
   }
+  .burger{
+    display: block;
+  }
 
 }
 
