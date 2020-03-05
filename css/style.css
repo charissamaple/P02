@@ -457,6 +457,10 @@ span.price {
   margin-bottom: 10px;
 }
 
+.news_home_img:hover{
+  opacity: .7;
+}
+
 .news_home img{
   width: 100%;
 }
@@ -515,6 +519,10 @@ span.price {
 
 .news_page_img{
   width: 40%;
+}
+
+.news_page_img:hover{
+  opacity: .7;
 }
 
 .news_page_container{
