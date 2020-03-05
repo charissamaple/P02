@@ -54,6 +54,7 @@ p {
   line-height: 1.4em;
   letter-spacing: .03em;
   font-size: .95rem;
+  padding-bottom: 20px;
 }
 
 .long_para {
@@ -459,16 +460,17 @@ span.price {
   background-repeat: no-repeat;
   background-size: cover;
 
-  position: absolute;
+  /* position: absolute; */
   left: 0;
 }
 
 .news_home {
-  top: 600px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   position: relative;
+  align-items: stretch;
+  padding-bottom: 5%;
 }
 
 .news_column {
