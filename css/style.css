@@ -98,7 +98,22 @@ p {
 
 /* main nav */
 
-.navigation {
+.burger{
+  display: none;
+  width: 100%;
+  z-index: 1000;
+  /* background-color: rgb(247, 247, 247); */
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+.burger div{
+  width: 30px;
+  height: 7px;
+  border-bottom: #0039CA 3px solid;
+  margin: auto;
+}
+
+#navigation {
   align-items: center;
   display: inline-table;
   text-align: center;
@@ -107,6 +122,7 @@ p {
   overflow: hidden;
   padding: 1em 0em 2em 0em;
   font-size: .9em;
+  display: block;
 }
 
 nav a {
