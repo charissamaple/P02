@@ -448,13 +448,33 @@ span.price {
   padding-bottom: 1em;
 }
 
-.banner {
+.banner_home {
   width: 100vw;
   height: 600px;
   background-image: url("../img/home_banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: -20px;
+  padding: 0;
+  transition: .3s ease-in-out;
+}
+
+.banner_home:hover {
+  transition: .3s ease-in-out;
+  opacity: .75;
+}
+
+.banner_home_content{
+  text-align: center;
+  position: relative;
+  top: 35%;
+}
+.banner_home_content h1, .banner_home_content h4{
+  color: #fff;
+}
+.no-styled-in-text{
+  text-decoration: none;
 }
 
 .news_home {
@@ -489,6 +509,12 @@ span.price {
 
 .feature_intro{
   text-align: center;
+  padding: 20px 0;
+  margin-top: 30px;
+}
+
+.feature_intro h1{
+  margin: .3em;
 }
 
 /* button class */
@@ -511,7 +537,6 @@ span.price {
   -webkit-transition: .3s ease-in-out;
   letter-spacing: 0.09em;
   text-decoration: none;
-
 }
 
 .btn:hover, .btn:focus {
