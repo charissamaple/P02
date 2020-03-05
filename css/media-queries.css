@@ -43,6 +43,14 @@
     .news_container, .news_img{
       flex-basis: 47%;
     }
+
+    /* news PAGE  */
+    .news_page_column{
+      flex-direction: column;
+    }
+    .news_page_img, .news_page_container{
+      width: 100%;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -61,10 +69,19 @@
   html {
     padding: 0;
   }
-  
-    .news_container, .news_img{
-      padding: 0 3% 0 3%;
-    }
+
+  .news_container, .news_img{
+    padding: 0 3% 0 3%;
+  }
+
+  /* wacky hamburger menu  */
+  .navigation{
+    display: none;
+  }
+  .navigation a{
+    display: block;
+  }
+
 }
 
 
