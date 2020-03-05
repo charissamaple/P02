@@ -69,10 +69,19 @@
   html {
     padding: 0;
   }
-  
-    .news_container, .news_img{
-      padding: 0 3% 0 3%;
-    }
+
+  .news_container, .news_img{
+    padding: 0 3% 0 3%;
+  }
+
+  /* wacky hamburger menu  */
+  .navigation{
+    display: none;
+  }
+  .navigation a{
+    display: block;
+  }
+
 }
 
 
