@@ -375,30 +375,6 @@ span.price {
   display: inline;
 }
 
-.view-button {
-  border-color: #0039CA;
-  font-family: lunchtype, Helvetica, sans-serif;
-  color: #0039CA;
-  background-color: white;
-  letter-spacing: .3px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 2;
-  padding: 5px 20px;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  cursor: pointer;
-  transition: .3s ease-in-out;
-  -webkit-transition: .3s ease-in-out;
-  letter-spacing: 0.09em;
-}
-
-.view-button:hover, .view-button:focus {
-  background-color: #FFAA12;
-  border-color: #FFAA12;
-  color: white;
-}
-
 /* product card */
 
 .card {
@@ -495,14 +471,15 @@ span.price {
 
 .btn {
   font-size: .7em;
+  border: 1px solid;
   border-color: #0039CA;
-  background-color: #0039CA;
-  color: white;
+  background-color: white;
+  color: #0039CA;
   font-family: lunchtype, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 2;
-  padding: 11px 30px 12px 30px;
+  padding: 9px 30px 10px 30px;
   margin-top: 1em;
   margin-bottom: 1em;
   cursor: pointer;
