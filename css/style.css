@@ -588,11 +588,12 @@ span.price {
   text-align: center;
   display: flex;
   justify-content: space-evenly;
+  padding: 1em 0em 0.8em 0em;
 }
 
 .footer_logo {
-  padding: 1em 0em 0.5em 0em;
-  max-width: 200px;
+  padding: 1.2em 0em 0.5em 0em;
+  max-width: 250px;
 }
 
 .footer_title {
