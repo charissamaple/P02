@@ -455,10 +455,6 @@ span.price {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  }
-
-  /* position: absolute; */
-  left: 0;
 }
 
 .news_home {
@@ -468,6 +464,7 @@ span.price {
   position: relative;
   align-items: stretch;
   padding-bottom: 5%;
+  flex-direction: row;
 }
 
 .news_column {
