@@ -63,6 +63,20 @@
   div.main {
     margin-left: 0;
   }
+  .news_column{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #0039ca;
+  }
+  .news_home_img{
+    padding-top: 20px;
+  }
+  #navigation{
+    display: block;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -81,7 +95,6 @@
     .news_home_container, .news_home_img{
       width: 100%;
     }
-
 }
 
 @media screen and (max-width: 420px) {

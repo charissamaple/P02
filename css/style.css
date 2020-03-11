@@ -135,7 +135,7 @@ p {
   list-style-type: none;
   width: 100%;
   overflow: hidden;
-  padding: 1em 0em 2em 0em;
+  padding: 1em 0em;
   font-size: .9em;
   display: block;
 }
@@ -162,17 +162,18 @@ button {
   border-color: #0039CA;
   background-color: #0039CA;
   color: white;
+  font-size: .7em;
+  border: none;
   font-family: lunchtype, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 2;
-  padding: 5px 20px;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  padding: 6px 30px;
   cursor: pointer;
   transition: .3s ease-in-out;
   -webkit-transition: .3s ease-in-out;
   letter-spacing: 0.09em;
+  text-decoration: none;
 }
 
 button:hover, button:focus {
@@ -516,7 +517,7 @@ span.price {
 
 /* button class */
 
-.btn {
+.btn{
   font-size: .7em;
   border: 1px solid;
   border-color: #0039CA;
