@@ -69,7 +69,7 @@ p {
 }
 
 .long_para {
-  max-width: 600px;
+  max-width: 900px;
 }
 
 /* sidebar */
@@ -342,11 +342,6 @@ span.price {
 #image-link{
   max-width: 400px;
 }
-#image-link:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
 
 /* product listing */
 
