@@ -144,7 +144,7 @@ nav a {
   color: #0039CA;
   display: inline;
   letter-spacing: .6px;
-  margin: 10px 15px 20px;
+  margin: 10px 20px 20px 20px;
 }
 
 nav a:hover {
