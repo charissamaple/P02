@@ -419,7 +419,7 @@ span.price {
   border-bottom: 1px solid #0039CA;
   height: 70%;
 }
-.card-photo img{
+.card-photo > img{
   width: 80%;
   padding: 5% 2% 10% 2%;
   margin: auto;
@@ -427,11 +427,10 @@ span.price {
 .card-photo-gallery{
   display: flex;
   justify-content: space-evenly;
-  max-height: 30%;
 }
 .card-photo-gallery img{
-  max-width: 25%;
-  padding: 3% 0;
+  padding: 3% 0 5% 0;
+  max-width: 28%;
 }
 
 /* home page */
