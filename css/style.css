@@ -612,6 +612,7 @@ span.price {
   display: flex;
   justify-content: space-evenly;
   padding: 1em 0em 0.8em 0em;
+  margin-top: 50px;
 }
 
 .footer_logo {
