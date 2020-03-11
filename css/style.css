@@ -391,7 +391,6 @@ span.price {
 }
 
 .product_listing button {
-  width: 45%;
   display: inline;
 }
 
@@ -570,7 +569,6 @@ span.price {
 
 .news_page_img{
   width: 40%;
-  -webkit-transition: .3s ease-in-out;
 }
 
 .news_page_img:hover{
@@ -636,7 +634,7 @@ span.price {
 .footer_link {
   color: white;
   text-decoration: none;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #fff;
   transition:  .5s ease-in-out;
 }
 

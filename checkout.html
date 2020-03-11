@@ -18,24 +18,30 @@
   </head>
 
   <body>
-    <section class="white_border">
       <a href="homepage.html">
         <img class="logo" src="img/logo.png" alt="company logo">
       </a>
 
-      <section class="sec_nav">
-        <div id="navigation">
-        <nav>
-        <a href="homepage.html">HOME</a>
-        <a href="newspage.html">NEWS</a>
-        <a href="product.html">PRODUCT</a>
-        <a href="contact.html">CONTACT</a>
-        <a href="#cart">CART</a>
-      </nav>
+      <div class="burger" onclick="showMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
       </div>
+
+      <!-- nav -->
+      <section id="navigation">
+        <nav>
+          <a href="homepage.html">HOME</a>
+          <a href="newspage.html">NEWS</a>
+          <a href="product.html">PRODUCT</a>
+          <a href="contact.html">CONTACT</a>
+          <a href="checkout.html">CART</a>
+        </nav>
       </section>
 
       <hr>
+
+      <section class="white_border">
 
       <div class="all">
         <div class="row">
@@ -136,6 +142,7 @@
       <a class="footer_link" href="citation.html">Citation</a>
     </div>
   </div>
+  <script src="main.js"></script>
 
 </body>
 </html>
