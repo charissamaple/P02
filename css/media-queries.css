@@ -82,12 +82,6 @@
       width: 100%;
     }
 
-    #navigation{
-      display: block;
-    }
-    .burger{
-      display: none;
-    }
 }
 
 @media screen and (max-width: 420px) {
@@ -103,13 +97,14 @@
     padding: 0 3%;
   }
 
-  /* wacky hamburger menu  */
-  .navigation{
+  #navigation{
     display: none;
   }
-  .navigation a{
+  
+  #navigation.active{
     display: block;
   }
+
   .burger{
     display: block;
   }
