@@ -116,9 +116,10 @@ p {
   z-index: 1000;
   /* background-color: rgb(247, 247, 247); */
   background-color: #0039CA;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   padding: 10px 0 15px 0;
 }
+
 .burger div{
   width: 30px;
   height: 7px;
