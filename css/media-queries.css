@@ -113,4 +113,9 @@
   .burger{
     display: block;
   }
+
+  .long_banner{
+    background-position: left;
+    height: 500px;
+  }
 }
