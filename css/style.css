@@ -559,9 +559,14 @@ span.price {
 
 /* Contact page */
 
-.h2-contact-page{
+.h2-contact-page {
   padding-bottom: 20px;
   border-bottom: 1px solid #0039CA;
+}
+
+.h2-contact-page p {
+  text-decoration: none;
+  color: black;
 }
 
 
