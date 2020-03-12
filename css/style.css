@@ -41,6 +41,7 @@ h2{
   font-weight: normal;
   margin: 1.5em 0 .5em 0;
 }
+
 h3 {
   font-family: lunchtypeBold, Helvetica, sans-serif;
   color: #000;
@@ -276,6 +277,14 @@ span.price {
 
 .div_cart {
   min-width: 300px;
+}
+
+.checkout_title {
+  font-family: lunchtypeBold, Helvetica, sans-serif;
+  color: #0039CA;
+  font-weight: normal;
+  font-size: 1.3rem;
+  line-height: 1.5em;
 }
 
 /* cart in-text link */
