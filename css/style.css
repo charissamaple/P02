@@ -625,6 +625,8 @@ span.price {
   font-family: lunchtypeBoldExt, Helvetica, sans-serif;
   font-weight: normal;
   padding-bottom: 0;
+  font-size: 1em;
+  text-transform: uppercase;
 }
 
 .footer_social1, .footer_social2 {
