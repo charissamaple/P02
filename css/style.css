@@ -68,6 +68,10 @@ p {
   padding-bottom: 20px;
 }
 
+b {
+  font-family: lunchtypeBold;
+}
+
 .long_para {
   max-width: 900px;
 }
