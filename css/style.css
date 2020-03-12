@@ -375,6 +375,8 @@ span.price {
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: -20px;
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 
 .listing_card {
@@ -531,6 +533,11 @@ span.price {
 
 .news_home_img:hover{
   opacity: .7;
+  transition: .3s ease-in-out;
+}
+
+.news_home_img {
+  transition: .3s ease-in-out;
 }
 
 .news_home img{
@@ -577,9 +584,14 @@ span.price {
 
 /* Contact page */
 
-.h2-contact-page{
+.h2-contact-page {
   padding-bottom: 20px;
   border-bottom: 1px solid #0039CA;
+}
+
+.h2-contact-page p {
+  text-decoration: none;
+  color: black;
 }
 
 
@@ -610,10 +622,12 @@ span.price {
 
 .news_page_img{
   width: 40%;
+  transition: .3s ease-in-out;
 }
 
 .news_page_img:hover{
   opacity: .7;
+  transition: .3s ease-in-out;
 }
 
 .news_page_container{
