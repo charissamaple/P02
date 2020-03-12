@@ -95,6 +95,11 @@
     .news_home_container, .news_home_img{
       width: 100%;
     }
+
+    /* hr styling */
+    hr {
+      display: none;
+    }
 }
 
 @media screen and (max-width: 420px) {
@@ -113,7 +118,7 @@
   #navigation{
     display: none;
   }
-  
+
   #navigation.active{
     display: block;
     position: sticky;
