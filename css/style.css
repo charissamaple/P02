@@ -227,8 +227,12 @@ input:focus, textarea:focus {
 }
 
 .row {
-  display: -ms-flexbox;
+  display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
   display: flex;
+  
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: 0 -15px;
@@ -380,9 +384,13 @@ span.price {
 }
 
 .product_listing {
+  display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
   display: flex;
-  flex-wrap: wrap;
-  }
+    flex-wrap: wrap;
+}
 
 .price {
   color: grey;
@@ -412,9 +420,11 @@ span.price {
 /* product card */
 
 .card {
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
+  display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
   align-items: center;
   box-sizing: content-box;
   flex-wrap: wrap;
@@ -442,12 +452,12 @@ span.price {
   margin: auto;
 }
 .card-photo-gallery{
-  display: flex;
-  justify-content: space-evenly;
+  display: inline-block;
 }
-.card-photo-gallery img{
-  padding: 3% 0 5% 0;
+.card-photo-gallery > img{
+  padding: 5% 0 8% 0;
   max-width: 28%;
+  /* height: 100%; */
 }
 
 /* home page */
@@ -490,7 +500,11 @@ span.price {
 }
 
 .news_home {
-  display: flex;
+  display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;  
   justify-content: space-between;
   flex-wrap: wrap;
   position: relative;
@@ -502,6 +516,10 @@ span.price {
 .news_column {
   padding-top: 2em;
   flex-basis: 30%;
+  display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
   display: flex;
   flex-direction: column;
 }
@@ -568,6 +586,10 @@ span.price {
 /* news PAGE */
 
 .news_page {
+  display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -576,6 +598,10 @@ span.price {
 .news_page_column {
   /* margin-bottom: 5%; */
   padding: 8% 0;
+  display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -623,6 +649,10 @@ span.price {
   width: 100%;
   background-color: #0039CA;
   text-align: center;
+  display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
   display: flex;
   justify-content: space-evenly;
   padding: 1em 0em 0.8em 0em;
