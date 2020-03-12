@@ -576,6 +576,17 @@ span.price {
   color: black;
 }
 
+.contact_banner {
+width: 100vw;
+height: 600px;
+background-image: url("../img/contact_banner.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 0;
+transition: .3s ease-in-out;
+}
+
 
 /* news PAGE */
 
